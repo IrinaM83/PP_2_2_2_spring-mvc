@@ -1,10 +1,12 @@
 package web.dao;
 
+import org.springframework.stereotype.Repository;
 import web.models.Car;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class CarDaoImpl implements CarDao {
     private static int ID_CAR;
     private List<Car> cars;
